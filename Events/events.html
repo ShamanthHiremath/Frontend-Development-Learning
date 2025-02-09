@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    <h1>Events Practice cunt Website</h1>
+    <!-- types of inline event handling -->
+    <button onclick="console.log('button was clicked'); alert('hello u clicked the button')">click me!!!</button>
+    <!-- double click -->
+    <button ondblclick="console.log('button was clicked two times');">click me 2 times!!!</button>
+
+    <div onmouseover="console.log('u r hovering over div')"> this is a div</div>
+
+    <!-- types of event handling using JS, this has more priority than the inline ones-->
+    <button id='btn2'>click me!!!</button>
+    <!-- double click -->
+    <button >click me 2 times!!!</button>
+
+    <button id='btn3'>click me!!!</button>
+
+    <div> this is a div</div>
+
+    <button id="mode">Theme Toggle</button>
+
+
+    <script src="events.js" ></script>
+</body>
+</html>

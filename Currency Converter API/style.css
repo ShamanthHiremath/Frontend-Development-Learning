@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+body{
+    font-family: 'Poppins', serif;
+    font-weight: 800;
+    font-style: normal;
+    color: beige;
+    background-color: rgb(43, 155, 155);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    min-height: 50vh;
+    min-width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 65, 65);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+
+}
+
+form select, button, input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(25, 65, 65);
+    color: beige;
+    font-size: 1.2rem;
+    border-color: beige;
+}
+
+form input{
+    border: 2px solid beige;
+    height: auto;
+    padding: 5px;
+
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.select-container img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 40px;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    border-color: beige;
+    border-width: 5px;
+}
+
+.dropdown i{
+    color: beige;
+    padding: 10px;
+    margin: 10px;
+    /* font-size: 30px; */
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-style: normal;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+form button{
+    cursor: pointer;
+    background-color: rgb(0, 171, 171);
+    color: beige;
+    font-weight: 800;
+    border: 2px solid beige;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
